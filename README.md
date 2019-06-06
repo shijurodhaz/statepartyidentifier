@@ -78,11 +78,8 @@ This module scrapes Twitter for tweets from each state, then uses those tweets t
 
 
 ## Contributors
-#### Topic Classifier
+* Rodney Shibu (rodneyss)
 * Brian Sutherland (bsuth)
-#### Training
 * Nikita Badhwar (nbadhwar)
 * Shameek Ray (shameek)
-#### Testing
-* Rodney Shibu (rodneyss)
 * Sreeraj Marar (sreerajm)
