@@ -1,6 +1,5 @@
 # PartyCity
-PartyCity is a Twitter party recognition algorithm that attempts to predict a state's political stance based off of tweets from users within that state. This is a team Final Project for EECS 486: Information Retrieval at the University of Michigan.
-
+PartyCity is a Twitter party recognition algorithm that attempts to predict a state's political stance based off of tweets from users within that state.
 
 ## Table of Contents
 * [Introduction](#introduction)
