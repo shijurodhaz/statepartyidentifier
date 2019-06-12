@@ -1,5 +1,5 @@
-# PartyID
-PartyID is a Twitter party recognition algorithm that attempts to predict a state's political stance based off of tweets from users within that state.
+# State Party Identifier
+'State Party Identifier' is a Twitter party recognition algorithm that attempts to predict a state's political stance based off of tweets from users within that state.
 
 ## Table of Contents
 * [Introduction](#introduction)
@@ -11,7 +11,7 @@ PartyID is a Twitter party recognition algorithm that attempts to predict a stat
 
 
 ## Introduction
-PartyID is a Twitter party recognition algorithm that attempts to predict a state's political stance based off of tweets from users within that state. The algorithm is mainly split into three modules: [topic classification](#topic-classifier-module), [training](#training-module) and [testing](#testing-module). More information on each of these modules can be found below.
+'State Party Identifier' is a Twitter party recognition algorithm that attempts to predict a state's political stance based off of tweets from users within that state. The algorithm is mainly split into three modules: [topic classification](#topic-classifier-module), [training](#training-module) and [testing](#testing-module). More information on each of these modules can be found below.
 
 In order to make our algorithm more accurate, we create separate classifiers for several political "topics". For example, if a tweet is determined to be about 'Education', then we will use classifiers built for Liberal: Education vs Conservative: Education rather than a generalized Liberal vs Conservative classifier. To choose these topics, we looked at the most important issues among voters for the 2016 Presidential Election using data from [Pew Research Center](https://www.people-press.org/2016/07/07/4-top-voting-issues-in-2016-election/). It should be noted that some of these topics were not included, due to some topics becoming irrelevant in current day politics (for example, Supreme Court Appointments).
 
