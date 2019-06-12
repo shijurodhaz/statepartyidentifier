@@ -19,8 +19,8 @@ In order to make our algorithm more accurate, we create separate classifiers for
 ## Running the Project
 First, you'll need to clone the repo and install partycity as a python package.
 ```
-git clone https://gitlab.eecs.umich.edu/bsuth/partycity.git
-cd partycity
+git clone https://github.com/shijurodhaz/statepartyidentifier.git
+cd statepartyidentifier
 pip3 install -e .
 ```
 If you don't want to install partycity to your root system, you can also use a virtual environment (after `cd partycity`):
@@ -35,8 +35,8 @@ To run the program, simply run the `partycity` command.
 
 If you unpacked these files from a zip folder, simply do:
 ```
-unzip partycity.zip
-cd partycity
+unzip statepartyidentifier.zip
+cd statepartyidentifier
 python3 -m venv env
 source .env/bin/activate # this may vary based on your shell
 pip install -e .
